@@ -1,0 +1,34 @@
+name: apex_sc
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^3.1.2
+  smooth_page_indicator: ^1.1.0
+  shared_preferences: ^2.2.3
+  pinput: ^5.0.0
+  numeric_keyboard: ^1.1.0
+  provider: ^6.1.2
+  one_context: ^4.0.0
+  http: ^1.2.1
+  device_info_plus: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/animations/
+    - assets/icons/
